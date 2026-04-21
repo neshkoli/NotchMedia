@@ -49,7 +49,7 @@ Say hello to **Boring Notch**, the coolest way to make your MacBook’s notch th
 
 ### Option 1: Download and Install Manually
 
-<a href="https://github.com/TheBoredTeam/boring.notch/releases/latest/download/boringNotch.dmg" target="_self"><img width="200" src="https://github.com/user-attachments/assets/e3179be1-8416-4b8a-b417-743e1ecc67d6" alt="Download for macOS" /></a>
+<a href="https://github.com/TheBoredTeam/boring.notch/releases/latest/download/NotchMedia.dmg" target="_self"><img width="200" src="https://github.com/user-attachments/assets/e3179be1-8416-4b8a-b417-743e1ecc67d6" alt="Download for macOS" /></a>
 
 Once downloaded, open the `.dmg` and move **Boring Notch** to your `/Applications` folder.
 
@@ -67,7 +67,7 @@ This is the quickest and easiest method. It only requires a single command and w
 After moving Boring Notch to your Applications folder, run:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/boringNotch.app
+xattr -dr com.apple.quarantine /Applications/NotchMedia.app
 ```
 
 Then open the app normally.
@@ -144,7 +144,7 @@ brew install --cask TheBoredTeam/boring-notch/boring-notch
 
 2. **Open the Project in Xcode**:
    ```bash
-   open boringNotch.xcodeproj
+   open NotchMedia.xcodeproj
    ```
 
 3. **Build and Run**:
